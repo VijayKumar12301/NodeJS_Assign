@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Page</title>
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0eff3;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2d2d2d;
+}
+
+/* Header and Navbar Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar h1 {
+    text-align: center;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: rgb(206, 45, 45);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #45a049;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: rgb(105, 119, 245);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.section p, .section ul {
+    font-size: 1.2em;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>My Static Website</h1>
+            <nav>
+                <ul>
+                    <br />
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to My Static Page</h2>
+        <p>This is a simple static webpage created with HTML and CSS. It contains basic sections such as Home, About, Services, and Contact.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are a small company that provides high-quality services to our clients. We specialize in web development, design, and digital marketing.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Web Design</li>
+            <li>SEO Optimization</li>
+            <li>Digital Marketing</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have questions? Feel free to reach out to us:</p>
+        <address>
+            Email: <a href="mailto:info@example.com">info@example.com</a><br>
+            Phone: (123) 456-7890
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Static Website</p>
+    </footer>
+</body>
+</html>
